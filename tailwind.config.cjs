@@ -27,7 +27,9 @@ module.exports = {
 		],
 	},
 	theme: {
-		extend: {},
+		borderRadius: {
+			fancy: "30% 70% 70% 30% / 30% 30% 70% 70%",
+		},
 	},
 	plugins: [require("daisyui")],
 };
