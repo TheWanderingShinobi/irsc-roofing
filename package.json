@@ -10,8 +10,11 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^1.2.1",
     "@astrojs/tailwind": "^3.1.0",
     "astro": "^2.1.0",
+    "astro-compress": "^1.1.35",
+    "astro-rome": "^0.1.11",
     "autoprefixer": "^10.4.14",
     "daisyui": "^2.51.4",
     "postcss": "^8.4.21",

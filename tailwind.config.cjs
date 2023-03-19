@@ -26,10 +26,9 @@ module.exports = {
 			},
 		],
 	},
-	theme: {
-		borderRadius: {
-			fancy: "30% 70% 70% 30% / 30% 30% 70% 70%",
-		},
+	fontFamily: {
+		nunito: ["Nunito", "sans-serif"],
 	},
+	theme: {},
 	plugins: [require("daisyui")],
 };
