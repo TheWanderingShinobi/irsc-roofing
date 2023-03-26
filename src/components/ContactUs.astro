@@ -4,7 +4,7 @@
     }
 
     p {
-        color: ##ddd8dd;
+        color: #ddd8dd;
     }
 </style>
 
@@ -13,14 +13,19 @@
 
     <div class="grid lg:gap-6 lg:px-2 lg:grid-cols-2 lg:divide-x divide-accent">
         <div class="mb-4 mt-4 lg:mb-0">
-            <h1 class="text-primary text-3xl text-center">Contact Us</h1>
+            <h1 class="text-accent uppercase text-6xl text-center mb-4">
+                Contact Us
+            </h1>
             <div>
                 <form action="https://submit-form.com/a1kqloNd">
                     <div class="grid md:grid-cols-2 md:gap-6">
                         <div class="mb-6"></div>
                     </div>
 
-                    <label for="full name"></label>
+                    <label
+                        class="font-bold text-lg text-accent uppercase"
+                        for="full name">Full Name</label
+                    >
                     <input
                         type="text"
                         id="nameFull"
@@ -30,7 +35,10 @@
                         class="mb-2 form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                     />
 
-                    <label for="telephone"></label>
+                    <label
+                        class="font-bold text-lg text-accent uppercase"
+                        for="telephone">Telephone</label
+                    >
                     <input
                         type="tel"
                         id="telephone"
@@ -40,7 +48,10 @@
                         class="mb-2 form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                     />
 
-                    <label for="email"></label>
+                    <label
+                        class="font-bold text-lg text-accent uppercase"
+                        for="email">Email</label
+                    >
                     <input
                         type="email"
                         id="email"
@@ -50,20 +61,22 @@
                         class="mb-2 form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                     />
 
-                    <label for="message"></label>
+                    <label
+                        class="font-bold text-lg text-accent uppercase"
+                        for="message">Message</label
+                    >
                     <textarea
                         id="message"
                         name="message"
                         placeholder="Message"
                         required=""
+                        rows="6"
                         class="mb-3 form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                     ></textarea>
 
-                    <a
-                        role="button"
-                        href="#!"
+                    <button
                         class="mb-2 btn btn-wide btn-outline btn-accent"
-                        >Send Now</a
+                        type="submit">Send</button
                     >
                 </form>
             </div>
